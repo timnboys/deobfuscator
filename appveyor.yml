@@ -7,6 +7,7 @@ platform: Any CPU
 before_build:
 - cmd: git submodule add https://github.com/0xd4d/dnlib
 - cmd: git submodule add https://github.com/0xd4d/de4dot
+- cmd: nuget restore "ConfuserEx Dynamic Unpacker.sln"
 - cmd: git submodule update --init --recursive
 build:
   project: ConfuserEx Dynamic Unpacker.sln
