@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ConfuserEx_Dynamic_Unpacker</RootNamespace>
     <AssemblyName>ConfuserEx Dynamic Unpacker</AssemblyName>
-    <TargetFrameworkVersion>netcoreapp3.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>netcore451</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
